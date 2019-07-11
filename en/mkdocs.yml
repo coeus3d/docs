@@ -1,0 +1,101 @@
+site_name: 文档中心
+site_description: 广州科伊斯数字技术文档中心
+site_author: 广州科伊斯数字技术运维部
+
+copyright: "Copyright &copy; 2018 - 2019 广州科伊斯数字技术有限公司"
+
+repo_name: '文档中心'
+edit_uri: 'blob/master/docs/'
+repo_url: https://github.com/coeus3d/cn-docs
+
+extra:
+  social:
+    - type: 'globe'
+      link: 'http://www.coeus3d.com'
+    - type: 'github'
+      link: 'https://github.com/coeus3d'
+
+nav:
+  - 欢迎:
+    - 首页: index.md
+    - 常见问题: faq.md
+    - 联系我们: contact.md
+  - 产品列表: 
+    - 首页: product/index.md
+    - 常见问题: product/faq.md
+    - X65: 
+      - 介绍: product/X65/intro.md
+      - 使用说明: product/X65/manual.md
+    - X50:
+      - 介绍: product/X50/intro.md
+      - 使用说明: product/X50/manual.md
+    - 附件:
+      - MP3:
+        - 介绍: product/accessory/mp3/intro.md
+        - 手册: product/accessory/mp3/manual.md
+      - 矩阵/支架:
+        - 介绍: product/accessory/shelf/intro.md
+        - 手册: product/accessory/shelf/manual.md
+        - 常见问题: product/accessory/shelf/faq.md
+      - 路由: 
+        - 介绍: product/accessory/router/intro.md
+        - 手册: product/accessory/router/manual.md
+      - 遥控器: 
+        - 介绍: product/accessory/remote_control/intro.md
+        - 手册: product/accessory/remote_control/manual.md
+  - 软件:
+    - 首页: software/index.md
+    - 手机端:
+      - 介绍: software/mobile/intro.md
+      - 使用说明: software/mobile/manual.md
+      - 常见问题: software/mobile/faq.md
+    - PC: 
+      - 介绍: software/pc/intro.md
+      - 使用说明: software/pc/manual.md
+      - 常见问题: software/pc/faq.md
+    - 云平台: 
+      - 介绍: software/cloud/intro.md
+      - 使用说明: software/cloud/manual.md
+      - 常见问题: software/cloud/faq.md
+
+theme:
+  name: null
+  custom_dir: 'theme'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'cloud'
+  language: 'zh'
+  feature:
+    tabs: true
+  static_templates:
+    - 404.html
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
