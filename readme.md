@@ -2,7 +2,17 @@
 
 使用 mkdocs & mkdocs-material
 
-## 构建
+## 使用
+
+需要 `Python3.7`
+
+### 准备环境
+
+```bash
+pip3 install -r requirements.txt
+```
+
+### 构建
 
 ```bash
 ./run.sh

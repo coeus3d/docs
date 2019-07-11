@@ -1,29 +1,29 @@
-# 矩阵/多机搭建手册
+# Multidevice Screen Manual
 
-## 安装前
+## Before Installation
 
-1. 两台设备间最佳距离为`46.4cm`，高低相差`2cm` 
-2. 左上角第一台一定为高，即垫高`2cm`
-3. 高的设备旁边均为低，高低错落安装，防止触碰 
-4. 安装好之后，手动轻轻拨动扇叶，观察是否需要微调位置
+1. The preferred distance between two device is `46.4cm`, upper and lower distance is `2cm` 
+2. The upper left machine must be the higher one (make that one `2cm` higher than other machine)
+3. The higher machine is always beside a lower one. One higher one lower one so that they won't bumped into each other.
+4. Toggle the blade to see if further adjustment need to be made
 
-### 矩阵同步线连接说明
+### Sync line
 
-!!! note "原理"
-    A设备输出口连B设备的输入口，B设备的输出口连C 设备的输入口，如此重复下去，形成一个循环
+!!! note "How it works"
+    Device A Sync out is connected to Device B Sync in, and Device B Sync out is connected to Device C Sync in, and so on.
 
 ![](images/wire.png)
 
 
-!!! warning "注意"
-    1. 如果连接顺序错误，后续步骤很麻烦
-    2. 请按顺序连接音频同步线
+!!! warning
+    1. Please follow the order when connecting sync line
+    2. Please follow the order when connecting audio sync line
 
-## 连接示范
+## Examples
 
-!!! danger "危险！"
-    1. 运转产品前，请使用手转动一下扇叶，看看是否会互相触碰
-    2. 请先把所有的线捆绑好再运转产品，以免造成事故。
+!!! danger
+    1. Please toggle the blade and make sure there is no collision before power on!
+    2. Please stable all wire before power on
 
 ![](images/connect_1.png)
 ![](images/connect_2.png)
@@ -33,20 +33,27 @@
 ![](images/connect_6.png)
 
 
-## 主从机设定
+## Master Slave Machine Setting
 
 ![](images/master-slave.png)
 
-当进行矩阵拼接时，由于设备过多，难以每台都操控，所以我们会进行主从机设置，由一台主机控制其他从机。 
+Since it hard to control each individual device when using the multidevice screen, we use one master device to control all slave devices. 
 
-1. 设备接上电源，长按矩阵上所有设备的`Mode`键 (亮绿灯)
-2. 选择`0号机`作为主机，双击`Match`键 (主机亮红灯，从机灯全灭)
-3. 此时主机设置完毕
+Please follow the steps to set up master device.
 
-!!! note "紫色提示灯"
-    `0号机`亮紫灯，表示设置失败。请到常见问题处排查问题
+1. Power on the devices and long press all `Mode` button of devices in the multidevice screen
+    - Green light will be on
+2. Choose Machine `0` as host. Double press the `Match` button
+    - host machine will shine red light, and slave machine won't have any light on
+3. Setup Finished
 
-## 架子示范
+!!! note "Machine 0"
+    `machine 0` is chose randomly, but usually, upper left one is chosen 
+
+!!! note "Purple light"
+    If `machine 0` is shining purple light, please refer to [FAQ](faq).
+
+## Shelf Examples
 
 [架子组装说明-6台.pdf](documents/架子组装说明-6台.pdf)
 

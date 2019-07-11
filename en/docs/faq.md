@@ -2,10 +2,12 @@
 
 Please choose a category.
 
-- [Device](/product/faq)
+- [Device](product/faq)
 
-- [Mobile client](/software/mobile/faq)
+- [Multidevice Screen](product/shelf/faq)
 
-- [PC client](/software/pc/faq)
+- [Mobile client](software/mobile/faq)
 
-- [Cloud Platform](/software/cloud/faq)
+- [PC client](software/pc/faq)
+
+- [Cloud Platform](software/cloud/faq)

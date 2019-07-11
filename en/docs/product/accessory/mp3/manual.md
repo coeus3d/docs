@@ -1,44 +1,49 @@
-# 手册
+# MP3 Manual
 
-## 概述
+## Overview
 
-该模块有两端
+This modules has two sides.
 
 ![](images/mp3.png)
 
-顶端红圈处是同步线输入孔
+The top red circle is for sync line.
 
-底端是USB供电孔和音频输出孔
+The button is for USB line and audio out.
 
-> 音频输出线为三段的线：左声道、右声道、地
+!!! note "Audio out"
+    The audio line should have `3` sections: Left channel, Right channel, and Ground Line
 
-## 操作指南
+## Instructions
 
-### 拷贝音乐
+### Copy Music
 
-Usb孔可接入usb数据线直接连接电脑，就会出现一个usb硬盘，选择自己喜欢的音乐放到01文件夹目录下。
+The USB line can connect to computer with a data cable. It will appear as a USB storage devices. 
 
-命名规则：三位数字_名
+Copy music to folder named `01`.
 
-> （如：征服.mp3  命名为 001_征服.mp3，第一首对应001）该三位数字将对应机器列表播放。
+filename rules：{three digit}_{name}
 
-### 机器操作
+> e.g. ：`Lucky.mp3` should renamed to `001_Lucky.mp3`. 
+> `001` means it is the first one to play
 
-1. 把MP3模块usb孔接上电源
-2. 音频输出孔接入音响（或者功放等设备）
-3. 同步线输入孔接入我们的机器同步信号输出孔`syn out`
+### Connect
+
+1. Plug in power via USB port
+2. Plug in audio line
+3. Plug in sync line from the last machine's `syn out` port
 
 !!! warning 
-    一定要检查线没有接错，避免烧毁模块！
+    Please double check the line arrangement!
 
 ![](images/syn-out.png)
 
-此时，只要控制机器转动，音乐就会播放，调节音量在控制机器的app设置页面。
+Now, once the machine is on, the music will be played.
 
+Volumn of the music can be controlled by the APP.
 
-### 矩阵连接
+### Multidevice Screen
 
-将最后一台机器同步线插至音乐模块即可
+Connect MP3 module to the last machine of the multidevice screen
 
-!!! note "准备工作"
-    在连接前请将音乐提前拷贝进音乐模块中
+!!! note "Preparation"
+    Please copy the music into the module before connection.

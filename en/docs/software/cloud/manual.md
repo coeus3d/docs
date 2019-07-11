@@ -1,86 +1,88 @@
-# 云平台手册
+# Cloud Platform Manual
 
-## 主界面
+## Main Page
 
 ![](images/cloud.png)
 
-## 设备
+## Device
 
-### 设备列表
+### Device List
 
 ![](images/deviceList.png)
 
-1. 删除设备
+1. Delete Device
 
-    列表页点击删除按钮即可，支持单个、批量删除。
+    Click the delete button on the list. It also supports batch manipulation.
 
-2. 列表导出/导入: 
-    - 点击导出按钮，可导出列表模板。
-    - 点击导入，可选择模板文件批量添加设备。
-3. 开机/关机: 
-    - 开启、关闭对应机器
-    - 播放暂停
-4. 调整对应机器播放、暂停状态: 
-    - 进入控制台
-    - 进入对应机器控制台界面
+2. Import/Export List: 
+    - Click `Export`, the template file will be available for download
+    - Click `Import`, upload a template file to add multiple devices at the same time.
+3. Power on/off: 
+    - Device will power on/off
+    - Device will also be paused
+4. Play/Pause Machine
+    - Click `Device`
+    - Click `Device Control` and choose the device you want to control
 
 
-!!! warning "下载素材到设备"
-    下载素材到设备需要从素材列表选中状态为通过的视频，点击“下载”，可下载视频到设备
+!!! warning "Download Material to Device"
+    `Download Material to device` need to the material status to be `approved`. 
+    Then Click the `Download` button.
 
-    请继续阅读本说明了解如何[上传素材](#_7)
+    Learn more about how to [upload material](#_7)
 
-### 设备控制台
+### Device Control
 
 ![](images/deviceControl.png)
 
-1. 选择控制设备
-2. 开机/关机
-3. 刷新列表
-4. 删除列表
-5. 播放/暂停
-6. 播放模式
-7. 音量
-8. 亮度
-9. 开机自启动
-10. 呼吸灯开关
-11. 角度调整
+1. Choose control device
+2. Power on/off
+3. Refresh list
+4. Delete item
+5. Play/Pause
+6. Play Mode
+7. Volumn
+8. Bright
+9. Auto Restart
+10. Breathing light
+11. Angle
 
 
-## 素材
+## Matieral
 
-### 素材管理
+### Material Management
 
 ![](images/upload.png)
 
-1. 添加素材流程：
-    - 素材管理
-    - 素材列表
-    - 添加
-    - 选择文件
-    - 开始上传
-2. 关闭窗口，素材列表显示正在审核
-3. 等待审核通过后即可下载
-4. 素材下载完成后会在设备控制台列表显
+1. Add new material：
+    - Click `Material Management`
+    - `Material List`
+    - `Add`
+    - Choose a file
+    - Uploading
+2. Close the floating window, the material will be shown `approving`
+3. Wait until the material finished reviewing
+4. If the material is `approved`, choose `download to device` and select device to download
+4. If the material is downloaded into the device, it will shown on the `device control` panel
 
-## 定时任务
+## Timed Task
 
-### 新增任务
+### New Task
 
 ![](images/addTask.png)
 
-定时任务包括：
+Timed task includes：
 
-- 定时启动
-- 定时关闭
-- 定时播放指定视频
+- Timed on
+- Timed off
+- Timed play specific material
 
-定时执行时间由：分钟、小时、日、月、周、年 6个字段设定组成
+Time granularity are：minutes, hours, days, months, weeks, and years
 
-详细设定规则可参阅[此教程](http://www.bejson.com/othertools/cron/)。
+Please refers to [this tutorial](https://crontab.guru/) for further instruction.
 
-### 任务列表
+### Task List
 
-可查看当前正在执行的定时调度任务
+List of current running tasks and their statuses
 
 ![](images/taskList.png)
