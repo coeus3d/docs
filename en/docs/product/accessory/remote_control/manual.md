@@ -2,7 +2,7 @@
 
 ## 配对
 
-![](/assets/images/remote_control/pair.png)
+![](images/pair.png)
 
 1. 设备接上电源，先单击设备的Match键
 2. 再按遥控器的Match键

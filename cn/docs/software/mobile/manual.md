@@ -5,11 +5,11 @@
 1. 设备上电
 2. 打开手机-设置-WiFi 
 
-![密码位置](/assets/images/mobile/wifi.png)
+![密码位置](images/wifi.png)
 
 3. 找到对应WiFi，输入密码后打开APP
 
-![密码位置](/assets/images/mobile/password.png)
+![密码位置](images/password.png)
 
 !!! warning "无法连接到APP？"
     1. 安卓设备使用前需关闭4G网络，并且允许所有权限，打开定位
@@ -20,7 +20,7 @@
 
 ## App 介绍
 
-![App界面1](/assets/images/mobile/app_1.png)
+![App界面1](images/app_1.png)
 
 1. 显示已连接
 2. 开关：控制设备开关
@@ -32,7 +32,7 @@
 !!! danger "文件命名"
         在**上传，编辑文件时**请**不要重复命名**！否则文件会被覆盖
 
-![App界面2](/assets/images/mobile/app_2.png)
+![App界面2](images/app_2.png)
 
 1. 联网模式：用于连接云端
 2. 音量调节
@@ -52,11 +52,11 @@
 1. 手机连接APP
 2. 点击联网模式
     
-    ![App连接1](/assets/images/mobile/cloud_1.png)
+    ![App连接1](images/cloud_1.png)
 
 3. 输入设备附近的WIFI名称和密码
 
-    ![App连接2](/assets/images/mobile/cloud_2.png)
+    ![App连接2](images/cloud_2.png)
 
 4. 输入后，点击确认
 5. 在云端注册设备，请参考[此教程](/software/cloud/manual)

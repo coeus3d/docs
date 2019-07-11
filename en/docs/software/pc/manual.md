@@ -10,13 +10,13 @@
 
 ## 主界面
 
-![主页面](/assets/images/pc/main.png)
+![主页面](images/main.png)
 
 ## 视频处理
 
 ### 视频切割
 
-![主页面](/assets/images/pc/cutting.png)
+![主页面](images/cutting.png)
 
 - 格式：填入联屏设备数量 `横轴方向上设备数量 X 纵轴方向上设备数量`
 - 源文件：选择需要切割的视频
@@ -36,7 +36,7 @@
 
 #### 角度调整
 
-![](/assets/images/pc/angle.png)
+![](images/angle.png)
 
 !!! warning "注意"
     一般不使用此功能
@@ -69,7 +69,7 @@
 
 #### 过滤
 
-![](/assets/images/pc/filter.png)
+![](images/filter.png)
 
 ### 视频上传
 
@@ -78,8 +78,8 @@
 
 #### 设备连接示意图
 
-![设备示意图](/assets/images/pc/deviceConnect.png)
-![表](/assets/images/pc/deviceTable.png)
+![设备示意图](images/deviceConnect.png)
+![表](images/deviceTable.png)
 
 在当前连接情况下：
 
@@ -90,7 +90,7 @@
 
 #### 路由上传
 
-![上传](/assets/images/pc/upload.png)
+![上传](images/upload.png)
 
 1. 机器连接上路由盒子后，电脑连接上路由盒子WIFI 
 2. 选择在线机器对应视频内容
@@ -116,8 +116,8 @@
 
 适配调整功能应用于源视频与目标联屏矩阵比例不一致时，将视频大小适配到目标大小
 
-![](/assets/images/pc/adjust_1.png)
-![](/assets/images/pc/adjust_2.png)
+![](images/adjust_1.png)
+![](images/adjust_2.png)
 
 
 1. 选择想要更改大小的视频->右键->属性->详细信息(查看源视频分辨率大小)
@@ -135,7 +135,7 @@
 
 ### 音频提取
 
-![](/assets/images/pc/audio.png)
+![](images/audio.png)
 
 1. 选择源文件（需要提取音频的视频）
 2. 输入序号
@@ -147,7 +147,7 @@
 
 此功能可以将视频格式转为mp4格式，并对视频进行压缩
 
-![](/assets/images/pc/trans.png)
+![](images/trans.png)
 
 1. 选择源文件（需要转码的视频）
 2. 选择分辨率

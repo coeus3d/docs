@@ -4,7 +4,7 @@
 
 **安卓客户端下载**
 
-[点击下载](/assets/binaries/3d_magic.apk)
+[点击下载](binaries/3d_magic.apk)
 
 **iOS 客户端下载**
 

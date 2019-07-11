@@ -2,13 +2,13 @@
 
 ## 主界面
 
-![](/assets/images/cloud/cloud.png)
+![](images/cloud.png)
 
 ## 设备
 
 ### 设备列表
 
-![](/assets/images/cloud/deviceList.png)
+![](images/deviceList.png)
 
 1. 删除设备
 
@@ -32,7 +32,7 @@
 
 ### 设备控制台
 
-![](/assets/images/cloud/deviceControl.png)
+![](images/deviceControl.png)
 
 1. 选择控制设备
 2. 开机/关机
@@ -51,7 +51,7 @@
 
 ### 素材管理
 
-![](/assets/images/cloud/upload.png)
+![](images/upload.png)
 
 1. 添加素材流程：
     - 素材管理
@@ -67,7 +67,7 @@
 
 ### 新增任务
 
-![](/assets/images/cloud/addTask.png)
+![](images/addTask.png)
 
 定时任务包括：
 
@@ -83,4 +83,4 @@
 
 可查看当前正在执行的定时调度任务
 
-![](/assets/images/cloud/taskList.png)
+![](images/taskList.png)

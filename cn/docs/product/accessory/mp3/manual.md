@@ -4,7 +4,7 @@
 
 该模块有两端
 
-![](/assets/images/mp3/mp3.png)
+![](images/mp3.png)
 
 顶端红圈处是同步线输入孔
 
@@ -31,7 +31,7 @@ Usb孔可接入usb数据线直接连接电脑，就会出现一个usb硬盘，�
 !!! warning 
     一定要检查线没有接错，避免烧毁模块！
 
-![](/assets/images/mp3/syn-out.png)
+![](images/syn-out.png)
 
 此时，只要控制机器转动，音乐就会播放，调节音量在控制机器的app设置页面。
 
