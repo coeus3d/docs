@@ -2,7 +2,7 @@
 
 ## 配对设备时亮紫灯
 
-![](assets/images/shelf/plugin.png)
+![](images/plugin.png)
 
 1. 检查同步线是否完全插入 
 2. 检查线路是否正确连接
