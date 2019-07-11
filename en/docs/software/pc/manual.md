@@ -21,39 +21,40 @@
 
 ![](images/cutting.png)
 
-- 格式：填入联屏设备数量 `横轴方向上设备数量 X 纵轴方向上设备数量`
-- 源文件：选择需要切割的视频
-- 分辨率：
-    - `X65`选择`720*720`
-    - `X50`选择`512*512`
-- 模式：默认选择自适应
-- 重合量：默认`20`
-- 角度：默认不调整
-- 过滤：默认不调整
+- Size: Fill in the number of devices of the multidevice screen 
+    - `# of device in horizontal direction` `**X**` `# of devices in vertical direction`
+- Source file: Choose which video to cut
+- Resolution:
+    - For `X65`, please choose `720*720`
+    - For `X50`, please choose `512*512`
+- Mode: Self-adapt
+- Overlay: default `20`
+- Angle: leave unchanged
+- Filter: leave unchanged
 
-!!! note "重合量"
-    `20`是试验最好效果，一般无需修改
+!!! note "Overlay"
+    `20` is the best value tested by our company. Please don't change unless you are told to do so.
 
-!!! note "任务完成"
-    `Video 框`出现`总数量 = 输入宽高积`时为切割完成
+!!! note "Task Complete!"
+    When `Video Table` appears `total number = height x weight`, the task has completed
 
-#### 角度调整
+#### Angle Adjustment
 
 ![](images/angle.png)
 
-!!! warning "注意"
-    一般不使用此功能
+!!! warning
+    This function should not be used frequently.
 
-    此功能操作难度较高，适用于机器安装位置与安装图纸有较大出入时，采用此功能。
+    It is used if the setup is different from the default
 
-- 点击设置进入角度设置页面
+- Click Setting
 
-!!! note "参数详解"
-    安装在上位的机器称上机，安装在底下位置的机器称为下机。一般上 机图像为满圆，下机为一面或多面缺失图像。
+!!! note "Terms"
+    安装在上位的机器称上机，安装在底下位置的机器称为下机。一般上机图像为满圆，下机为一面或多面缺失图像。
 
-!!! note "设备位置"
-    - 1-2 表示，第一横排第二竖排视频位置
-    - 3-4 表示，第三横排第四竖排视频位置。
+!!! note "Device Location"
+    - `1-2` indicates the first horizontal row, and the second vertical column
+    - `3-4` indicates the fourth horizontal row, and the third horizontal column
 
 - 选择需要调整视频位置
     
@@ -66,94 +67,104 @@
     - 补充/适应物理距离只需调整下机参数，上机不需要调整;
     - 调整上位机左交角度会使图像偏左或偏右移动，上交角度会使图像偏上或偏下移动。
 
-!!! note "旋转角度"
+!!! note "Rotate Angle"
 
     使本部分图像向右偏转的角度，该功能主要为了适配机器角度不正，而不影响其他正常工作的联屏视频。
 
-#### 过滤
+#### Filter
+
+Filter is used to choose which part of the video will not appear on the screen.
 
 ![](images/filter.png)
 
-### 视频上传
+### Upload Video
 
-!!! warning "注意"
-    以下操作均在矩阵设备连接好，WiFi连接后进行的操作
+!!! warning
+    The following steps should only be done after the multidevice screen is on and WiFi is connected.
 
-#### 设备连接示意图
+#### Diagram
 
 ![设备示意图](images/deviceConnect.png)
 ![表](images/deviceTable.png)
 
-在当前连接情况下：
+Under such conditions：
 
-- 视频`2-1`上传到`0`号设备
-- 视频`2-2`上传到`1`号设备
-- 视频`1-2`上传到`2`号设备
-- 视频`1-1`上传到`3`号设备
+- video `2-1` should upload to device `0` 
+- video `2-2` should upload to device `1`
+- video `1-2` should upload to device `2`
+- video `1-1` should upload to device `3`
 
-#### 路由上传
+#### Upload via Router
 
 ![上传](images/upload.png)
 
-1. 机器连接上路由盒子后，电脑连接上路由盒子WIFI 
-2. 选择在线机器对应视频内容
-3. 点击添加到上传列表
-4. 选择重命名
-5. 点击上传，开始上传
-6. 上传完毕
+1. Connect the computer to the router
+2. Choose corrospond videos from the list
+3. Click `Add` to add to the upload list
+4. Click `rename` and enter a name for the video
+5. Click `Upload`
+6. Upload Finished
 
 
-#### TF 卡上传
+#### Upload via TF Card 
 
-1. 拆下 TF 卡，并记录 TF 所在位置
-3. 打开切割软件，并电脑连上WIFI.(或通过网线直连)
-4. 路由器插入 TF 卡
-5. 切割软件选中要上传的视频，点击 TF 卡上传，等待上传完成
-6. TF 插回设备
-7. 设备重新上电
+1. Unplug the TF Card
+    - Keep a record of card and its corrospond device
+3. Launch the PC software and connect to Router
+4. Plug the TF Card into the router
+5. Choose the video to upload and click `TF Card Upload` button 
+6. Plug the TF Card back to the device
+7. Device Power on 
 
-!!! danger "TF 卡操作"
-    必须要断电才能插拔TF 卡！
+!!! danger "TF Card"
+    You should only unplug the card when the device is power off
 
-### 视频适配
+### Video Adaption Adjustment
 
-适配调整功能应用于源视频与目标联屏矩阵比例不一致时，将视频大小适配到目标大小
+The adaptation adjustment function is applied to adapt the video size to the target size when the ratio of the source video to the target screen matrix is inconsistent.
 
 ![](images/adjust_1.png)
 ![](images/adjust_2.png)
 
 
-1. 选择想要更改大小的视频->右键->属性->详细信息(查看源视频分辨率大小)
-2. 输入源视频分辩率原宽、高和目标视频分辨率宽高
-3. 输入起始坐标  
-    - 居中公式
-        - `X = (目标宽-源宽)/2`
-        - `Y = (目标高-源高)/2`
-4. 选择源文件
-5. 点击执行
+1. Choose the file you want to change
+    - Right click 
+    - Properties
+    - Details (Check origin size of the video)
+2. Enter Origin's height and width, as well as the target height and width.
+3. Enter origin coordinate
+    - Centering fomula
+        - `X = ({target width} - {origin width}) / 2`
+        - `Y = ({target height} - {origin height}) / 2`
+4. Choose source file
+5. Click `Execution`
 
-!!! note "居中公式"
-    此公式会使图像居中显示，如需显示其他位置，可根据真实需要调整 XY 值。 XY 为图像显示的坐标。
+!!! note "Centering formula"
+    This formula will center the image. 
+
+    If you want to move the image to another positions, you can adjust the `XY` value according to your real needs. 
+    
+    XY is the coordinates image will appear.
 
 
-### 音频提取
+### Audio Extraction
 
 ![](images/audio.png)
 
-1. 选择源文件（需要提取音频的视频）
-2. 输入序号
-3. 输入重命名
-4. 点击提取
-5. 生成文件名为排序数字_音频名字.mp3
+1. Choose source file
+2. Enter the order number
+3. Click rename and give it another name
+4. Click `Extract`
+5. Generated file will be named as `{three digits}_{filename}.mp3`
 
-### 转码
+### Transcoding
 
-此功能可以将视频格式转为mp4格式，并对视频进行压缩
+This function is used to convert video to `MP4` format and compress the video
 
 ![](images/trans.png)
 
-1. 选择源文件（需要转码的视频）
-2. 选择分辨率
-3. 输入重命名
-4. 点击执行
-5. 生成格式为mp4的文件
+1. Choose the source file）
+2. Choose the resolution
+3. Click rename and give it another name
+4. Click `Extract`
+5. `MP4` file generated
