@@ -59,7 +59,7 @@
     ![App连接2](images/cloud_2.png)
 
 4. 输入后，点击确认
-5. 在云端注册设备，请参考[此教程](/software/cloud/manual)
+5. 在云端注册设备，请参考[此教程](../cloud/manual)
 
 !!! warning "WiFi连接"
     1. 输入的`WiFi`必须与互联网联通

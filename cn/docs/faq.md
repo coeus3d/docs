@@ -2,10 +2,12 @@
 
 选择一个分类
 
-- [设备](/product/faq)
+- [设备](product/faq)
 
-- [手机端](/software/mobile/faq)
+- [矩阵/联屏](product/shelf/faq)
 
-- [PC 端](/software/pc/faq)
+- [手机端](software/mobile/faq)
 
-- [云平台](/software/cloud/faq)
+- [PC 端](software/pc/faq)
+
+- [云平台](software/cloud/faq)
