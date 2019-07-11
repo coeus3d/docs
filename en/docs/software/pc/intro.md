@@ -1,7 +1,7 @@
 # PC
 
-PC 软件主要用于多设备联屏/矩阵使用，具有以下功能
+PC software is used to control multidevice screen, and it has the following functions: 
 
-- 素材切割
-- 素材上传
-- 设备管理
+- Video Conversion
+- Materal Upload
+- Device Control

@@ -1,22 +1,25 @@
-# PC 软件手册
+# PC Software Manual
 
-## 整体流程
+## Overview
 
-1. 路由插上电源
-2. 矩阵设备插上电源，`60s`后，主机双击`mode`键连接路由
-3. 电脑连接WiFi（连上后电脑无网络）
-4. 打开切割软件进行视频切割
-5. 视频切割上传完成，双击match键取消连接 
+1. Power on the router
+2. Power on the multidevice screen, double press `mode` key of the host machine after `60s` to connect to the device
+3. Let the computer connect to the router
+4. Use our PC software to convert the video
+5. Use our PC software to upload the video, and double press `mode` key to disconnect from router
 
-## 主界面
+!!! warning "Computer"
+    The computer won't be able to access Internet via Wireless after connecting to the router
 
-![主页面](images/main.png)
+## Main Page
 
-## 视频处理
+![](images/main.png)
 
-### 视频切割
+## Video
 
-![主页面](images/cutting.png)
+### Video cutting
+
+![](images/cutting.png)
 
 - 格式：填入联屏设备数量 `横轴方向上设备数量 X 纵轴方向上设备数量`
 - 源文件：选择需要切割的视频

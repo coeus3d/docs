@@ -1,6 +1,6 @@
 # Index
 
-Thank you for choosing Coeus Inc.
+Thank you for choosing Coeus Digital Technology Co., Ltd.
 
 If you have any question, please take a look of this knowledge base or [contact us.](contact)
 

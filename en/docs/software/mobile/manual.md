@@ -1,68 +1,68 @@
-# 手机端手册
+# Mobile Manual
 
-## 准备工作
+## Preparation
 
-1. 设备上电
-2. 打开手机-设置-WiFi 
+1. Device Power On
+2. Goto Device WiFi's setting
 
-![密码位置](images/wifi.png)
+    ![Setting](images/wifi.png)
 
-3. 找到对应WiFi，输入密码后打开APP
+3. Find the corrospond WiFi and connect
 
-![密码位置](images/password.png)
+    ![](images/password.png)
 
-!!! warning "无法连接到APP？"
-    1. 安卓设备使用前需关闭4G网络，并且允许所有权限，打开定位
-    2. 周围无线干扰太多时，请靠近设备进行连接
-    3. 设备上电后60s内，可搜索到WiFi，请耐心等待
-    4. 设备连接上云端之后，无法使用App控制设备（详情可看云端故障排除）
+!!! warning "Unable to connect to WiFi?"
+    1. For Android device: please turn of Cellular mobile data, grant all permission，and turn on location service
+    2. If there is too many WiFi: get closer to the device before connecting
+    3. Please be patient: WiFi will show up in `60s`
+    4. The device you are trying to connect is connecting to the Cloud platform（Check FAQ for further instruction）
 
 
-## App 介绍
+## App Intro
 
-![App界面1](images/app_1.png)
+![](images/app_1.png)
 
-1. 显示已连接
-2. 开关：控制设备开关
-3. 上传：上传视频 
-4. 编辑：更改视频命名和顺序 
-5. 设置
-6. 点击任意视频即播放该视频
+1. Connection Status: connected
+2. Power on/off
+3. Upload video
+4. Edit：rename video or reorder video
+5. Device Setting
+6. Click any video to play on device
 
-!!! danger "文件命名"
-        在**上传，编辑文件时**请**不要重复命名**！否则文件会被覆盖
+!!! danger "rename video"
+        When **uploading/editing file name**, **Please DO NOT use the same name for two file**! or the file will be overwrite.
 
-![App界面2](images/app_2.png)
+![](images/app_2.png)
 
-1. 联网模式：用于连接云端
-2. 音量调节
-3. 亮度调节
-4. 角度调节
-5. 开机自启动：设备上电是否立即启动
-6. 呼吸灯开关：设备关闭时是否显示呼吸灯
-7. 模式切换：循环播放、随机播放
-8. 上传更新包：下载更新包后进行设备更新
-9. 恢复出厂设置：还原所有设置
+1. Network Mode: used to connect cloud platform
+2. Volumn
+3. Bright
+4. Angle
+5. Auto Restart: if the device is plug in, it will automatically power on
+6. Breathing Light：Show light when device is power off
+7. Mode：Loop, Random, In order
+8. Software Update：Download software update and apply
+9. Reset：Reset all setting to factory setting
 
-!!! note "更新软件"
-    建议每隔一段时间便更新程序
+!!! note "Software Update"
+    It is highly recommand to update software regularly
 
-## 将设备连入云端
+## Connect to Cloud Platform
 
-1. 手机连接APP
-2. 点击联网模式
+1. Use APP to connect to the device
+2. Click `Network Mode`
     
-    ![App连接1](images/cloud_1.png)
+    ![](images/cloud_1.png)
 
-3. 输入设备附近的WIFI名称和密码
+3. Enter a WiFI nearby
 
-    ![App连接2](images/cloud_2.png)
+    ![](images/cloud_2.png)
 
-4. 输入后，点击确认
-5. 在云端注册设备，请参考[此教程](/software/cloud/manual)
+4. Click Confirm
+5. Register Device on cloud platform, refer to [this tutorial](../cloud/manual)
 
-!!! warning "WiFi连接"
-    1. 输入的`WiFi`必须与互联网联通
-    2. `5G WiFi`暂不支持，请注意确认设备机型及可使用网络类型
+!!! warning "WiFi Connection"
+    1. `WiFi` must haveInternet connection    
+    2. `5G WiFi` is not supported yet，please double check device support network type in the manual
 
 

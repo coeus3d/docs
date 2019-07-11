@@ -1,47 +1,48 @@
-# 常见问题
+# FAQ
 
-## 在线设备数量不够
+## The number of online device does not match
 
-PC软件菜单栏选择连接->断开->连接，或者点击在线设备更新
+In the menu, click connect->disconnect, and then click connect again. Or you may try clicking the `update online device `button
 
-### 问题依旧？
+### What if problem stil exist？
 
-请将设备和路由断电重启，并重新连接
+Please restart the device and the router by power off, and try connecting again
 
-## 路由上传  
+## Upload via Router  
 
-### 上传提示上传失败 
+### Upload fails
 
-切割软件菜单栏选择连接->断开->连接，查看在线设备数量，如无设备出现，请将设备和路由断电重启并连接
+Check if the number of device is matched. If not, treated as device number not match problem.
 
+### Devices are not able to connect to the router
 
-### 设备始终无法连上路由
+Use Mobile Client to connect to devices, and check if the playlist is usable.
 
-手机搜索设备WiFi，查看播放列表是否正常刷出，如不能刷出请重启设备
+If not, reboot the device and try again.
 
-### 长时间无操作后，无法上传文件 
+### Unable to upload file after a peroid of time of no action
 
-请重启并重新连接设备
+Please reboot the devices and try again
 
-## TF 卡操作
+## TF Card
 
-### 提示上传完成，播放列表无显示，也不能播放
+### Upload success but unable to play
 
-上传前先点击 TF 列表，查看列表是否能刷新出来
+Before upload, try click the `TF List` and see if the list is shown.
 
-如果刷新不出播放列表：
+If the list is not shown:
 
-- 拨出 TF 卡
-- 擦去 TF 金手指接触位置灰尘
-- 重新插回路由器
+- Remove TF card
+- Clean TF card's gold finger
+- Plug in the TF card to the router
 
-!!! note "擦拭金手指"
-    可以使用橡皮擦轻轻擦拭
+!!! note "Cleaning Gold Finger"
+    You could use eraser gently wipe over the gold finger
 
-### 上传速度慢
+### Upload takes too much time
 
-请采用网线直连方式
+Use a cable to connect to the router
 
-### 路由器 TF 卡列表无法刷出
+### Unable to get the TF Card list
 
-请联系技术人员解决
+Please contact our technical support

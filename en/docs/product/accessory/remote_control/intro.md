@@ -1,5 +1,5 @@
-# 遥控器
+# Remote Control
 
-大部分机型在出厂时会附带遥控器，用于简单的操作
+Most of the machine will include a remote control. It can be used to do some simple actions.
 
 

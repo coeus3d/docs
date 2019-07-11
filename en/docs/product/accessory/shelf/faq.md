@@ -1,15 +1,17 @@
-# 常见问题
+# FAQ
 
-## 配对设备时亮紫灯
+## Purple light on when paring
 
-![](/assets/images/shelf/plugin.png)
+![](images/plugin.png)
 
-1. 检查同步线是否完全插入 
-2. 检查线路是否正确连接
-3. 同步线损坏 (在售后群联系工作人员)
+1. Check if the sync line is fully plugged in
+2. Check if the line is connected appropriately
+3. The sync line is broken, please contact our technical support
 
-检查完毕后，按照步骤重新设置
+Reconfigure after checking
 
-## 不同型号设备是否能够组成联屏？
+## Can I use different models to build multidevice screen?
 
-不可以，具体可以组成联屏的型号请查阅手册
+No, you should only use one kind of model once.
+
+please check the manual to see if your device is capable of building multidevice screen.

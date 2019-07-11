@@ -1,12 +1,12 @@
-# 遥控器使用说明
+# Remote Control Manual
 
-## 配对
+## Pairing
 
 ![](images/pair.png)
 
-1. 设备接上电源，先单击设备的Match键
-2. 再按遥控器的Match键
-3. 配对完毕。
+1. Power on the device and press `Match` button
+2. Press `Match` button on the remote control
+3. Finish paring
 
-!!! note "矩阵说明"
-    使用遥控器控制矩阵时，可直接配对主机
+!!! note "Multidevice screen"
+    If you want to use remote control over multidevice screen, please only paring with the host machine.

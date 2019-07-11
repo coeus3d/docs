@@ -1,4 +1,3 @@
-# 支架/矩阵
+# Multidevice Screen/Shelf
 
-多设备联动时需要使用支架并按照一定规则连接，这一部分主要介绍一些常见的搭建方式
-
+When connecting multiple devices together, some rules need to be follow. Here are some examples of how to build a multidevice screen.

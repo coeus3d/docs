@@ -1,30 +1,32 @@
-# 常见问题
+# FAQ
 
-## APP无法连接
+## APP cannot connect to the device
 
-设备连接云端后，APP禁止连接。如需回到APP控制模式，可用以下方法:
+When the device is connected to the cloud platform, APP **won't** be able to connect to the device.
 
-1. 云端选择断开连接
-2. 断开路由连接`5`分钟，设备回到正常模式
-3. 单击设备背部`net`按键取消连接
+If you want to use APP to control device, follow the following ways:
 
-## 输入WIFI账号密码错误，APP无法连接
+1. Login into Cloud platform and disconnect device from the cloud platform 
+2. If the device is unable to connect to the router for `5 minutes`, it will automatically switch back to APP control mode
+3. Press the `nat` button at the back of the device
+
+## I enter the wrong wifi name/password combination
      
-1. 静置五分钟后自动恢复正常状态
-2. 单击设备背部`net`按键取消连接
+1. The device will automatically switch back to APP control mode after `5 minutes`.
+2. Press the `nat` button at the back of the device
 
-## 云端显示在线，控制无反应
+## The cloud platform shows device online, but the device has no response
 
-重启设备，若频繁出现，检查路由网络通讯是否稳定
+Reboot the device. If this pheonmenon happens frequently, please check router's Internet Connection.
 
-## 网页卡顿，不流畅
+## Cloud Platform stuck
 
-建议使用非IE内核浏览器，如`Chrome`、`Firefox`等。
+Please **DO NOT USE** IE or browser using IE kernel
 
-若使用360浏览器，切换至极速模式
+We recommend using `Chrome`, `Firefox`, etc.
 
-## 设备列表显示离线，但未操作离线
+## The cloud platform shows the device offline
 
-1. 检查路由连接是否正常
-2. 等待`2-5`分钟，看是否重连成功
-3. 检查设备运转是否正常
+1. Check Router Internet Connection/Connection between device and router
+2. Wait for `2-5 minutes`, device will reconnect if possible
+3. Check if the device is working properly
