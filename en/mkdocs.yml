@@ -48,7 +48,7 @@ nav:
     - Index: software/index.md
     - Mobile:
       - Intro: software/mobile/intro.md
-      - Manula: software/mobile/manual.md
+      - Manual: software/mobile/manual.md
       - FAQ: software/mobile/faq.md
     - PC: 
       - Intro: software/pc/intro.md

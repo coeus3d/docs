@@ -1,7 +1,7 @@
-# 介绍
+# Intro
 
-设备接入我司提供的云平台后可以实现远程管理，无视地域限制远程进行多设备操作，素材切换等
+Our Cloud Platform allows user to remote control devices. 
 
-本章用于介绍我司云平台使用方式
+It can be used to control multiple devices at the same time and upload new matieral, etc.
 
-云平台网址：[https://cloud.coeus3d.com](https://cloud.coeus3d.com)
+Cloud Platform Address：[https://cloud.coeus3d.com](https://cloud.coeus3d.com)
