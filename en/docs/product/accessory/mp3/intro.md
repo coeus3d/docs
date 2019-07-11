@@ -1,4 +1,3 @@
-# MP3 音乐模块
+# MP3 Module
 
-音乐模块用于在视频播放时同时播放对应声音，这一章节主要讲解如何使用该模块
-
+MP3 Module is used to play video's audio section when the device is playing the video.

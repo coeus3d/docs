@@ -1,10 +1,10 @@
 # 首页
 
-目前，我们我司正在经营的产品有：
+The products we are selling：
 
 - X65
 - X50
 
 
 !!! note
-    请从左侧栏选择一项开始了解
+    Choose a section from the list on the left

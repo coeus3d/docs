@@ -1,4 +1,3 @@
-# 路由
+# Router
 
-路由主要用于控制联屏集群，单机并不要该设备
-
+Router is used to control multidevice screen. 

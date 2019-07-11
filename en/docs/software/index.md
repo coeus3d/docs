@@ -1,15 +1,15 @@
-# 首页
+# Index
 
-目前，我们支持的客户端有：
+We have mobile client for these OS：
 
-- 安卓
+- Android
 - iOS
 
-同时，我们拥有
+At the mean time, we have:
 
-- 云平台设备管理
-- PC切割软件
+- Cloud Platform
+- PC Client for multidevice screen
 
 
 !!! note
-    请从左侧栏选择一项开始了解
+    Choose a section from the list on your left.

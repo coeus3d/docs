@@ -1,11 +1,11 @@
-# 常见问题
+# FAQ
 
-选择一个分类
+Please choose a category.
 
-- [设备](/product/faq)
+- [Device](/product/faq)
 
-- [手机端](/software/mobile/faq)
+- [Mobile client](/software/mobile/faq)
 
-- [PC 端](/software/pc/faq)
+- [PC client](/software/pc/faq)
 
-- [云平台](/software/cloud/faq)
+- [Cloud Platform](/software/cloud/faq)

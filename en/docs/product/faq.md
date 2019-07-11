@@ -1,8 +1,8 @@
-# 常见问题
+# FAQ
 
-## 目前，有哪些方式可以控制设备、上传视频到设备？
+## In what ways can devices be controlled/upload material to the device?
 
-- **遥控器**
+- **Remote Control**
 
     可以实现对设备的基本控制
 

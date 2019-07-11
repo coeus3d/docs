@@ -1,13 +1,13 @@
-site_name: 文档中心
-site_description: 广州科伊斯数字技术文档中心
-site_author: 广州科伊斯数字技术运维部
+site_name: knowledge Base
+site_description: Coeus Docs Center
+site_author: Guangzhou Coeus Digital Technology Co., Ltd. 
 
-copyright: "Copyright &copy; 2018 - 2019 广州科伊斯数字技术有限公司"
+copyright: "Copyright &copy; 2018 - 2019 Guangzhou Coeus Digital Technology Co., Ltd. "
 
-repo_name: '文档中心'
+repo_name: 'Docs'
 edit_uri: 'blob/master/docs/'
-repo_url: https://github.com/coeus3d/cn-docs
-site_url: https://coeus-docs.netlify.com
+repo_url: https://github.com/coeus3d/docs
+site_url: https://coeus-docs.netlify.com/en
 
 extra:
   social:
@@ -17,47 +17,47 @@ extra:
       link: 'https://github.com/coeus3d'
 
 nav:
-  - 欢迎:
-    - 首页: index.md
-    - 常见问题: faq.md
-    - 联系我们: contact.md
-  - 产品列表: 
-    - 首页: product/index.md
-    - 常见问题: product/faq.md
+  - Welcome:
+    - Index: index.md
+    - FAQ: faq.md
+    - Contact: contact.md
+  - Products: 
+    - Index: product/index.md
+    - FAQ: product/faq.md
     - X65: 
-      - 介绍: product/X65/intro.md
-      - 使用说明: product/X65/manual.md
+      - Intro: product/X65/intro.md
+      - Manual: product/X65/manual.md
     - X50:
-      - 介绍: product/X50/intro.md
-      - 使用说明: product/X50/manual.md
-    - 附件:
+      - Intro: product/X50/intro.md
+      - Manual: product/X50/manual.md
+    - Accessory:
       - MP3:
-        - 介绍: product/accessory/mp3/intro.md
-        - 手册: product/accessory/mp3/manual.md
-      - 矩阵/支架:
-        - 介绍: product/accessory/shelf/intro.md
-        - 手册: product/accessory/shelf/manual.md
-        - 常见问题: product/accessory/shelf/faq.md
-      - 路由: 
-        - 介绍: product/accessory/router/intro.md
-        - 手册: product/accessory/router/manual.md
-      - 遥控器: 
-        - 介绍: product/accessory/remote_control/intro.md
-        - 手册: product/accessory/remote_control/manual.md
-  - 软件:
-    - 首页: software/index.md
-    - 手机端:
-      - 介绍: software/mobile/intro.md
-      - 使用说明: software/mobile/manual.md
-      - 常见问题: software/mobile/faq.md
+        - Intro: product/accessory/mp3/intro.md
+        - Manual: product/accessory/mp3/manual.md
+      - MulitDevice/Shelf:
+        - Intro: product/accessory/shelf/intro.md
+        - Manual: product/accessory/shelf/manual.md
+        - FAQ: product/accessory/shelf/faq.md
+      - Router: 
+        - Intro: product/accessory/router/intro.md
+        - Manual: product/accessory/router/manual.md
+      - Remote Control: 
+        - Intro: product/accessory/remote_control/intro.md
+        - Manual: product/accessory/remote_control/manual.md
+  - Software:
+    - Index: software/index.md
+    - Mobile:
+      - Intro: software/mobile/intro.md
+      - Manula: software/mobile/manual.md
+      - FAQ: software/mobile/faq.md
     - PC: 
-      - 介绍: software/pc/intro.md
-      - 使用说明: software/pc/manual.md
-      - 常见问题: software/pc/faq.md
-    - 云平台: 
-      - 介绍: software/cloud/intro.md
-      - 使用说明: software/cloud/manual.md
-      - 常见问题: software/cloud/faq.md
+      - Intro: software/pc/intro.md
+      - Manual: software/pc/manual.md
+      - FAQ: software/pc/faq.md
+    - Cloud Platform: 
+      - Intro: software/cloud/intro.md
+      - Manual: software/cloud/manual.md
+      - FAQ: software/cloud/faq.md
 
 theme:
   name: null
@@ -70,7 +70,7 @@ theme:
     code: 'Roboto Mono'
   logo:
     icon: 'cloud'
-  language: 'zh'
+  language: 'en'
   feature:
     tabs: true
   static_templates:

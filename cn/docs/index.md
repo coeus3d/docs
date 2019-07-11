@@ -8,4 +8,4 @@
 
 ### English Version
 
-Please Visit [Our English Tutorial](https://en-docs.netlify.com)
+Please Visit [Our English Knowledge Base](/en)
